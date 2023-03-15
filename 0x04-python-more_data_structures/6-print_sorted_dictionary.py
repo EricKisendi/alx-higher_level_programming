@@ -5,4 +5,5 @@ def print_sorted_dictionary(a_dictionary):
     keys1.sort()
     for i in keys1:
         b_dictionary[i] = a_dictionary.get(i)
-    print(b_dictionary)
+    for i in b_dictionary:
+        print("{}: {}".format(i, b_dictionary[i]))
